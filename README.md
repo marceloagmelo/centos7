@@ -41,8 +41,6 @@ docker run --rm -ti marceloagmelo/centos7:latest shell
 
 #### start
 
-The start operation initialize the node process by running `npm install && npm start` in the /opt/app directory. If no application files are found the start operation will use the default application, this application can be used for testing.
-
 ```
 docker run -d -p 0.0.0.0:8000:8000 marceloagmelo/centos7:latest start
 ```
